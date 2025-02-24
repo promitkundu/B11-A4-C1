@@ -1,5 +1,5 @@
 function cashOut(money) {
-    if (money <= 0 || typeof money !== "number") {
+    if (money < 0 || typeof money !== "number") {
         return "Invalid";
     }
 
